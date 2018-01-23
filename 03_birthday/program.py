@@ -14,8 +14,9 @@ def get_birthday_from_user():
     birthday = datetime.date(year, month, day)
     return birthday
 
-def compute_days_between_dates():
-    pass
+def compute_days_between_dates(date1, date2):
+    dtdiff = date1 - date2
+
 
 def print_birthday_information():
     pass
